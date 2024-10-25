@@ -1,0 +1,1608 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a6b9796d1c0440eba061ace5e9dff6, type: 3}
+  m_Name: Little bomb with ine red wire
+  m_EditorClassIdentifier: 
+  assetsData:
+  - rid: 9174364779355570191
+  - rid: 9174364779355570198
+  - rid: 9174364779355570205
+  - rid: 9174364779355570212
+  - rid: 9174364779355570219
+  - rid: 9174364779355570226
+  - rid: 9174364779355570233
+  - rid: 9174364779355570240
+  - rid: 9174364779355570247
+  - rid: 9174364779355570254
+  - rid: 9174364779355570261
+  - rid: 9174364779355570268
+  - rid: 9174364779355570279
+  - rid: 9174364779355570286
+  - rid: 9174364779355570293
+  - rid: 9174364779355570300
+  currentMode: TextToSprite
+  m_Data:
+  - rid: 9174364779355570178
+  - rid: 9174364779355570179
+  - rid: 9174364779355570180
+  - rid: 9174364779355570181
+  - rid: 9174364779355570182
+  - rid: 9174364779355570183
+  - rid: 9174364779355570190
+  preRefinedArtifact:
+    rid: -2
+  refinedArtifact:
+    rid: -2
+  selectedArtifact:
+    rid: 9174364779355570300
+  m_Operators:
+  - rid: 9174364779355570184
+  - rid: 9174364779355570185
+  - rid: 9174364779355570186
+  - rid: 9174364779355570187
+  - rid: 9174364779355570188
+  - rid: 9174364779355570189
+  m_PreRefineOperators: []
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 9174364779355570178
+      type: {class: FeedbackManager, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_Liked:
+          m_Values: []
+        m_Disliked:
+          m_Values: []
+    - rid: 9174364779355570179
+      type: {class: DefaultStyleData, ns: Unity.Muse.Sprite.Data, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 9174364779355570180
+      type: {class: GenerateButtonData, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data: 
+    - rid: 9174364779355570181
+      type: {class: MainUI/UISize, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_NodeListWidth: 299
+        m_NodeListRefineWidth: 300
+        m_AssetListRefineWidth: 200
+    - rid: 9174364779355570182
+      type: {class: SessionData, ns: Unity.Muse.Sprite.Data, asm: Unity.Muse.Sprite}
+      data:
+        m_SessionId: 7c39fcbd-696c-46bc-ab1d-dce8c9bb990e
+        sessionLoaded: 
+    - rid: 9174364779355570183
+      type: {class: BookmarkManager, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_BookmarkedArtifacts:
+          m_Values: []
+        m_IsFilterEnabled: 0
+    - rid: 9174364779355570184
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570185
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Tiled wall
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570186
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 1.00
+          - 512
+          - 512
+          - 1
+          - 1
+          - 60060
+          - 0
+          - 0
+          - 00000000-0000-0000-0000-000000000000
+          - 0
+          - 0
+          - 
+          - 
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570187
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAR9klEQVR4Ae3QMQEAAADCoPVPbQdviEBhwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBg4B8YAvAAAQMCkJYAAAAASUVORK5CYII=
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570188
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 9174364779355570189
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7c39fcbd-696c-46bc-ab1d-dce8c9bb990e
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570190
+      type: {class: GenerateCountData, ns: Unity.Muse.Sprite.Data, asm: Unity.Muse.Sprite}
+      data:
+        m_Counter: 0
+    - rid: 9174364779355570191
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 8a13281f-ca67-4754-9260-e6aed36cbe42
+        Seed: 39400
+        m_Operators:
+        - rid: 9174364779355570192
+        - rid: 9174364779355570193
+        - rid: 9174364779355570194
+        - rid: 9174364779355570195
+        - rid: 9174364779355570196
+        - rid: 9174364779355570197
+        history:
+        - rid: 9174364779355570191
+        m_UnsafeContent: 0
+    - rid: 9174364779355570192
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570193
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Little bomb with ine red wire
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570194
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0,85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 39400
+          - 8a13281f-ca67-4754-9260-e6aed36cbe42
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570195
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570196
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 9174364779355570197
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7c39fcbd-696c-46bc-ab1d-dce8c9bb990e
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570198
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: dffa4b87-9981-4d89-ac1d-7959369b85ad
+        Seed: 29298
+        m_Operators:
+        - rid: 9174364779355570199
+        - rid: 9174364779355570200
+        - rid: 9174364779355570201
+        - rid: 9174364779355570202
+        - rid: 9174364779355570203
+        - rid: 9174364779355570204
+        history:
+        - rid: 9174364779355570198
+        m_UnsafeContent: 0
+    - rid: 9174364779355570199
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570200
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Little bomb with ine red wire
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570201
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0,85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 29298
+          - dffa4b87-9981-4d89-ac1d-7959369b85ad
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570202
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570203
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 9174364779355570204
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7c39fcbd-696c-46bc-ab1d-dce8c9bb990e
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570205
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 76b78c9c-8cfd-4174-b64f-40a0f7f30d3f
+        Seed: 11843
+        m_Operators:
+        - rid: 9174364779355570206
+        - rid: 9174364779355570207
+        - rid: 9174364779355570208
+        - rid: 9174364779355570209
+        - rid: 9174364779355570210
+        - rid: 9174364779355570211
+        history:
+        - rid: 9174364779355570205
+        m_UnsafeContent: 0
+    - rid: 9174364779355570206
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570207
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Little bomb with ine red wire
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570208
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0,85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 11843
+          - 76b78c9c-8cfd-4174-b64f-40a0f7f30d3f
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570209
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570210
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 9174364779355570211
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7c39fcbd-696c-46bc-ab1d-dce8c9bb990e
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570212
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 8a94322a-190e-4dfc-bd97-73a26ad9d623
+        Seed: 31636
+        m_Operators:
+        - rid: 9174364779355570213
+        - rid: 9174364779355570214
+        - rid: 9174364779355570215
+        - rid: 9174364779355570216
+        - rid: 9174364779355570217
+        - rid: 9174364779355570218
+        history:
+        - rid: 9174364779355570212
+        m_UnsafeContent: 0
+    - rid: 9174364779355570213
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570214
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Little bomb with ine red wire
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570215
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0,85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 31636
+          - 8a94322a-190e-4dfc-bd97-73a26ad9d623
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570216
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570217
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 9174364779355570218
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7c39fcbd-696c-46bc-ab1d-dce8c9bb990e
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570219
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: e62415d3-a043-4af9-8fcd-12335d94ac55
+        Seed: 12339
+        m_Operators:
+        - rid: 9174364779355570220
+        - rid: 9174364779355570221
+        - rid: 9174364779355570222
+        - rid: 9174364779355570223
+        - rid: 9174364779355570224
+        - rid: 9174364779355570225
+        history:
+        - rid: 9174364779355570219
+        m_UnsafeContent: 0
+    - rid: 9174364779355570220
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570221
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Golden ingot
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570222
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0,85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 12339
+          - e62415d3-a043-4af9-8fcd-12335d94ac55
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570223
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570224
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 9174364779355570225
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7c39fcbd-696c-46bc-ab1d-dce8c9bb990e
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570226
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 341fced0-91b5-44a2-8cf5-82de26737bd9
+        Seed: 25115
+        m_Operators:
+        - rid: 9174364779355570227
+        - rid: 9174364779355570228
+        - rid: 9174364779355570229
+        - rid: 9174364779355570230
+        - rid: 9174364779355570231
+        - rid: 9174364779355570232
+        history:
+        - rid: 9174364779355570226
+        m_UnsafeContent: 0
+    - rid: 9174364779355570227
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570228
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Golden ingot
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570229
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0,85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 25115
+          - 341fced0-91b5-44a2-8cf5-82de26737bd9
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570230
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570231
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 9174364779355570232
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7c39fcbd-696c-46bc-ab1d-dce8c9bb990e
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570233
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: fc23d207-76f8-4341-b3c4-d84dbefca2f5
+        Seed: 18593
+        m_Operators:
+        - rid: 9174364779355570234
+        - rid: 9174364779355570235
+        - rid: 9174364779355570236
+        - rid: 9174364779355570237
+        - rid: 9174364779355570238
+        - rid: 9174364779355570239
+        history:
+        - rid: 9174364779355570233
+        m_UnsafeContent: 0
+    - rid: 9174364779355570234
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570235
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Golden ingot
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570236
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0,85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 18593
+          - fc23d207-76f8-4341-b3c4-d84dbefca2f5
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570237
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570238
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 9174364779355570239
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7c39fcbd-696c-46bc-ab1d-dce8c9bb990e
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570240
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: c3b3cb6a-dc1f-4498-88b2-2e5702e9115c
+        Seed: 62499
+        m_Operators:
+        - rid: 9174364779355570241
+        - rid: 9174364779355570242
+        - rid: 9174364779355570243
+        - rid: 9174364779355570244
+        - rid: 9174364779355570245
+        - rid: 9174364779355570246
+        history:
+        - rid: 9174364779355570240
+        m_UnsafeContent: 0
+    - rid: 9174364779355570241
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570242
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Golden ingot
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570243
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0,85
+          - 512
+          - 512
+          - 1
+          - 1
+          - 62499
+          - c3b3cb6a-dc1f-4498-88b2-2e5702e9115c
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570244
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570245
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 9174364779355570246
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7c39fcbd-696c-46bc-ab1d-dce8c9bb990e
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570247
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: db303a23-777f-41ea-bebb-61212884f166
+        Seed: 53406
+        m_Operators:
+        - rid: 9174364779355570248
+        - rid: 9174364779355570249
+        - rid: 9174364779355570250
+        - rid: 9174364779355570251
+        - rid: 9174364779355570252
+        - rid: 9174364779355570253
+        history:
+        - rid: 9174364779355570247
+        m_UnsafeContent: 0
+    - rid: 9174364779355570248
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570249
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Blue whale
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570250
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.71
+          - 512
+          - 512
+          - 1
+          - 1
+          - 53406
+          - db303a23-777f-41ea-bebb-61212884f166
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570251
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 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BAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAIotLT8AAAALSURBVAECBEIL/A9cAi0+HhWcWgAAAABJRU5ErkJggg==
+          - 
+          - False
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570252
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 9174364779355570253
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7c39fcbd-696c-46bc-ab1d-dce8c9bb990e
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570254
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: f684b4b2-377c-486c-a13c-697ab9edbe5f
+        Seed: 17509
+        m_Operators:
+        - rid: 9174364779355570255
+        - rid: 9174364779355570256
+        - rid: 9174364779355570257
+        - rid: 9174364779355570258
+        - rid: 9174364779355570259
+        - rid: 9174364779355570260
+        history:
+        - rid: 9174364779355570254
+        m_UnsafeContent: 0
+    - rid: 9174364779355570255
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570256
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Blue whale
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570257
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.71
+          - 512
+          - 512
+          - 1
+          - 1
+          - 17509
+          - f684b4b2-377c-486c-a13c-697ab9edbe5f
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570258
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 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BAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAIotLT8AAAALSURBVAECBEIL/A9cAi0+HhWcWgAAAABJRU5ErkJggg==
+          - 
+          - False
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570259
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 9174364779355570260
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7c39fcbd-696c-46bc-ab1d-dce8c9bb990e
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570261
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: abc87cae-a4b4-404a-8027-03b9616292c9
+        Seed: 32915
+        m_Operators:
+        - rid: 9174364779355570262
+        - rid: 9174364779355570263
+        - rid: 9174364779355570264
+        - rid: 9174364779355570265
+        - rid: 9174364779355570266
+        - rid: 9174364779355570267
+        history:
+        - rid: 9174364779355570261
+        m_UnsafeContent: 0
+    - rid: 9174364779355570262
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570263
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Blue whale
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570264
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.71
+          - 512
+          - 512
+          - 1
+          - 1
+          - 32915
+          - abc87cae-a4b4-404a-8027-03b9616292c9
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570265
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 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BAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAIotLT8AAAALSURBVAECBEIL/A9cAi0+HhWcWgAAAABJRU5ErkJggg==
+          - 
+          - False
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570266
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 9174364779355570267
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7c39fcbd-696c-46bc-ab1d-dce8c9bb990e
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570268
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: aaadc519-fb6d-4714-91de-985383051092
+        Seed: 30059
+        m_Operators:
+        - rid: 9174364779355570269
+        - rid: 9174364779355570270
+        - rid: 9174364779355570271
+        - rid: 9174364779355570272
+        - rid: 9174364779355570273
+        - rid: 9174364779355570274
+        history:
+        - rid: 9174364779355570268
+        m_UnsafeContent: 0
+    - rid: 9174364779355570269
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570270
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Blue whale
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570271
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 0.71
+          - 512
+          - 512
+          - 1
+          - 1
+          - 30059
+          - aaadc519-fb6d-4714-91de-985383051092
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570272
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - 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BAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAIotLT8AAAALSURBVAECBEIL/A9cAi0+HhWcWgAAAABJRU5ErkJggg==
+          - 
+          - False
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570273
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 9174364779355570274
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7c39fcbd-696c-46bc-ab1d-dce8c9bb990e
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570279
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 07548657-6d8b-40bf-9b5a-10eefb3c8c7b
+        Seed: 9197
+        m_Operators:
+        - rid: 9174364779355570280
+        - rid: 9174364779355570281
+        - rid: 9174364779355570282
+        - rid: 9174364779355570283
+        - rid: 9174364779355570284
+        - rid: 9174364779355570285
+        history:
+        - rid: 9174364779355570279
+        m_UnsafeContent: 0
+    - rid: 9174364779355570280
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570281
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Tiled wall
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570282
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 1.00
+          - 512
+          - 512
+          - 1
+          - 1
+          - 9197
+          - 07548657-6d8b-40bf-9b5a-10eefb3c8c7b
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570283
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAR9klEQVR4Ae3QMQEAAADCoPVPbQdviEBhwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBg4B8YAvAAAQMCkJYAAAAASUVORK5CYII=
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570284
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 9174364779355570285
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7c39fcbd-696c-46bc-ab1d-dce8c9bb990e
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570286
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 9d6bcec9-2bb9-4f8f-b183-01f5b530a4f7
+        Seed: 30349
+        m_Operators:
+        - rid: 9174364779355570287
+        - rid: 9174364779355570288
+        - rid: 9174364779355570289
+        - rid: 9174364779355570290
+        - rid: 9174364779355570291
+        - rid: 9174364779355570292
+        history:
+        - rid: 9174364779355570286
+        m_UnsafeContent: 1
+    - rid: 9174364779355570287
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570288
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Tiled wall
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570289
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 1.00
+          - 512
+          - 512
+          - 1
+          - 1
+          - 30349
+          - 9d6bcec9-2bb9-4f8f-b183-01f5b530a4f7
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570290
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAR9klEQVR4Ae3QMQEAAADCoPVPbQdviEBhwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBg4B8YAvAAAQMCkJYAAAAASUVORK5CYII=
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570291
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 9174364779355570292
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7c39fcbd-696c-46bc-ab1d-dce8c9bb990e
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570293
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: 96210b42-f31d-43f4-a5fe-62727e251745
+        Seed: 2264
+        m_Operators:
+        - rid: 9174364779355570294
+        - rid: 9174364779355570295
+        - rid: 9174364779355570296
+        - rid: 9174364779355570297
+        - rid: 9174364779355570298
+        - rid: 9174364779355570299
+        history:
+        - rid: 9174364779355570293
+        m_UnsafeContent: 0
+    - rid: 9174364779355570294
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570295
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Tiled wall
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570296
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 1.00
+          - 512
+          - 512
+          - 1
+          - 1
+          - 2264
+          - 96210b42-f31d-43f4-a5fe-62727e251745
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570297
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAR9klEQVR4Ae3QMQEAAADCoPVPbQdviEBhwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBg4B8YAvAAAQMCkJYAAAAASUVORK5CYII=
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570298
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 9174364779355570299
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7c39fcbd-696c-46bc-ab1d-dce8c9bb990e
+          enabled: 0
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570300
+      type: {class: SpriteMuseArtifact, ns: Unity.Muse.Sprite.Artifacts, asm: Unity.Muse.Sprite}
+      data:
+        Guid: afc036bd-2efb-4ade-baaa-69d735993422
+        Seed: 33707
+        m_Operators:
+        - rid: 9174364779355570301
+        - rid: 9174364779355570302
+        - rid: 9174364779355570303
+        - rid: 9174364779355570304
+        - rid: 9174364779355570305
+        - rid: 9174364779355570306
+        history:
+        - rid: 9174364779355570300
+        m_UnsafeContent: 0
+    - rid: 9174364779355570301
+      type: {class: GenerateOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: GenerateOperator
+          version: 0.0.1
+          settings:
+          - TextToSprite
+          - 4
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570302
+      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
+      data:
+        m_OperatorData:
+          type: PromptOperator
+          version: 0.0.2
+          settings:
+          - Tiled wall
+          - 
+          enabled: 1
+          assembly: 
+    - rid: 9174364779355570303
+      type: {class: SpriteGeneratorSettingsOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SpriteGeneratorSettingsOperator
+          version: 0.0.1
+          settings:
+          - 
+          - 
+          - 1.00
+          - 512
+          - 512
+          - 1
+          - 1
+          - 33707
+          - afc036bd-2efb-4ade-baaa-69d735993422
+          - 0
+          - 5cc104e0-423a-473e-8034-b9d346cb2357
+          - 0
+          - 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          - Happy Harvest [Orion V4 2000]
+          - 8 Nov 2023
+          - 
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570304
+      type: {class: KeyImageOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.KeyImageOperator
+          version: 0.0.1
+          settings:
+          - iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAR9klEQVR4Ae3QMQEAAADCoPVPbQdviEBhwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBg4B8YAvAAAQMCkJYAAAAASUVORK5CYII=
+          - 
+          - True
+          - 512
+          - 512
+          - 0.5
+          enabled: 1
+          assembly: Unity.Muse.Sprite
+    - rid: 9174364779355570305
+      type: {class: SpriteRefiningMaskOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data: 
+    - rid: 9174364779355570306
+      type: {class: SessionOperator, ns: Unity.Muse.Sprite.Operators, asm: Unity.Muse.Sprite}
+      data:
+        m_OperatorData:
+          type: Unity.Muse.Sprite.Operators.SessionOperator
+          version: 0.0.1
+          settings:
+          - 7c39fcbd-696c-46bc-ab1d-dce8c9bb990e
+          enabled: 0
+          assembly: Unity.Muse.Sprite

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a99e84382eac0046bdac77870c21320, type: 3}
+  m_Name: Audio clips
+  m_EditorClassIdentifier: 
+  BigBang: {fileID: 8300000, guid: 3a4ee9a08296b8841b8c95d1e68679b2, type: 3}
+  VentBeep: {fileID: 8300000, guid: 014b7f91b87de0348bbc048c796446cb, type: 3}
+  GreenLight: {fileID: 8300000, guid: 5dab81569f1d68a45b4c6e72096ceed2, type: 3}
+  Defuse: {fileID: 8300000, guid: ba28db7798c3e8c4392afb35c464e487, type: 3}
+  UiClick: {fileID: 8300000, guid: d825d08ae56ffce4fb38289059b486aa, type: 3}
+  FaderTension: {fileID: 8300000, guid: aee2a631068970a4c9479915c9ded638, type: 3}
+  ClockAlarm: {fileID: 8300000, guid: fe999c59911a8704fbea93accff30875, type: 3}
+  ClockTick:
+  - {fileID: 8300000, guid: 2d8a97f9835e2ff4bb84c37bb7bf94ea, type: 3}
+  - {fileID: 8300000, guid: 36197f4fc1b11f74fbaf5c03a86f79e4, type: 3}
+  - {fileID: 8300000, guid: 628a139149cb9be41ad5d9aaeeb52a02, type: 3}
+  - {fileID: 8300000, guid: 3e57b1ac8f2a26942b4de80bfb38d5e2, type: 3}
+  FaderSuccess:
+  - {fileID: 8300000, guid: 88d02d5f87af1a247bc4e2b301f041d4, type: 3}
+  - {fileID: 8300000, guid: 4a895038d93db63458f37cc54ac2e925, type: 3}

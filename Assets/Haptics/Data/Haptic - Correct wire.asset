@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b0353f80e5e5b4c887c2cdd4af1132, type: 3}
+  m_Name: Haptic - Correct wire
+  m_EditorClassIdentifier: 
+  Type: 0
+  GamepadPart: 2
+  Duration: 0.2
+  LowSpeedIntensity: 0.5
+  LowSpeedMotor:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0.018106911
+      tangentMode: 65
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.22036743
+      value: 1.0039902
+      inSlope: 0.018106911
+      outSlope: 0.005274956
+      tangentMode: 5
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.4324565
+    - serializedVersion: 3
+      time: 0.46334335
+      value: 0.0028024912
+      inSlope: -1.9051952
+      outSlope: -1.9051952
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9776001
+      value: 0.9880371
+      inSlope: 0.0055556977
+      outSlope: 0.0055556977
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.13687027
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  HighSpeedIntensity: 0.5
+  HighSpeedMotor:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -0.23274188
+      outSlope: -0.23274188
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.28299403
+      value: 0.93413544
+      inSlope: -1.4762882
+      outSlope: -1.4762882
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.6286481
+      value: -0.005986452
+      inSlope: -0.0054250956
+      outSlope: -0.0054250956
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2.7089844
+      outSlope: 2.7089844
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VariesWithDistance: 0
+  MaxDistance: 25
+  FallOffCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0.025389818
+      outSlope: 0.025389818
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.0449233
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -0.057518054
+      outSlope: -0.057518054
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.03305334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
